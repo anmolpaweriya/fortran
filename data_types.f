@@ -1,6 +1,6 @@
 ! Data types
       program dt
-      implicit none
+      implicit none     ! to use explicit declaration
       real :: A
       integer :: B  
       character(len =20) :: C 
