@@ -6,7 +6,7 @@
       do n = 1,6
       print 6,n,"value"
 6     format(i1,a6)
-      read(*,*)a(n)
+      read(*,*)a(n)      ! index start from 1
       print*, ""
       end do
 
