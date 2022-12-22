@@ -1,5 +1,13 @@
 ! least Square Curve Fitting
 
+
+! main formulas 
+
+! denominator = n*sumSqrX - sumX*sumX
+
+! slope     (m) = (n*sumXY - sumX * sumY)/denominator
+! intercept (c) = (sumSqrX*sumY - sumX * sumXY)/denominator
+
 program program7
 implicit none
 real ::x,y,sumX = 0,sumY = 0,sumSqrX = 0,sumXY = 0,deno
@@ -19,7 +27,9 @@ end do
 
 deno = n*sumSqrX - sumX**2
 
-print*,"slope     = ",(n*sumXY - sumX* sumY)/deno
-print*,"Intercept = ",(sumSqrx*sumY - sumX* sumXY)/deno
-
+print*,"slope      (m) = ",(n*sumXY - sumX* sumY)/deno
+print*,"Intercept  (c) = ",(sumSqrx*sumY - sumX* sumXY)/deno
+print*
+print*,"final equation of curve ------->"
+print*,"        y = mx+c"
 end program program7
