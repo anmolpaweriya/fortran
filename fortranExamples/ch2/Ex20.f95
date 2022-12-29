@@ -1,4 +1,4 @@
-! compute value of z
+! Compute Value Of z
 
 ! given function is 
 
