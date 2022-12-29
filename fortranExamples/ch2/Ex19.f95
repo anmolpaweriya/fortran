@@ -1,4 +1,4 @@
-! array I/O
+! Array I/O
 
 program arrayIO
 
