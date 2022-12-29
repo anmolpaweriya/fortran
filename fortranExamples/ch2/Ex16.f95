@@ -1,4 +1,4 @@
-! print integers upto 20
+! Print Integers Upto 20
 program numUpto20
 do l = 1,20
 write(*,*),l
