@@ -1,4 +1,4 @@
-! print positive integer from 1 to 10
+! Print Positive Integer From 1 to 10
 program printInt
 implicit none
 integer :: n
