@@ -1,4 +1,4 @@
-! sub routine fo sum of 3 nums
+! Sub Routine Of Sum Of 3 Numbers
 
 program sum3Nums
 implicit none
