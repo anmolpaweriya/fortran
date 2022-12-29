@@ -1,4 +1,4 @@
-! sum of 2 numbers
+! Sum of 2 Numbers
 
 program sumNums
 do l = 1,10
