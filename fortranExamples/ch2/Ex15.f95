@@ -1,4 +1,4 @@
-! discount calculation program
+! Discount Calculation Program
 
 program discountCalc
 implicit none
