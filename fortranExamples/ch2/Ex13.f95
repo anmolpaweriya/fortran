@@ -1,4 +1,4 @@
-! board Rules
+! Board Rules
 
 program boardRules
 implicit none
