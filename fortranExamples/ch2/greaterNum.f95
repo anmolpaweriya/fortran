@@ -1,4 +1,4 @@
-!find greater number
+! Find Greater Number
 program greaterNum
 implicit none
 
