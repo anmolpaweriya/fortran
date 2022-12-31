@@ -3,7 +3,7 @@
 program program1
 implicit none
 
-real :: max,min,temp
+real :: maxNum,minNum,temp
 integer :: n,len
 write(*,"(A28)",advance = "no")"Enter the length of set :-) "
 read(*,*)len
@@ -13,17 +13,24 @@ write(*,"(A13,I2,A5)",advance="no")"Enter number ",n," :-) "
 read(*,*)temp
 
 if(n .eq. 1) then
-max  = temp
-min = temp
-else if(max.lt.temp) then
-max = temp
-else if(min.gt.temp) then
-min = temp
+maxNum  = temp
+minNum = temp
+! else if(max.lt.temp) then
+! max = temp
+! else if(min.gt.temp) then
+! min = temp
+! end if
+
+
+else 
+maxNum = MAX(maxNum,temp)
+minNum = min(minNum,temp)
 end if
+
 
 end do
 
-print*,"Maximum = ",max
-print*,"Minimum = ",min
-print*,"Range   = ",max-min
+print*,"Maximum = ",maxNum
+print*,"Minimum = ",minNum
+print*,"Range   = ",maxNum-minNum
 end program program1
